@@ -136,7 +136,7 @@ class PropelDataCollector extends DataCollector
     /**
      * Count the queries duration.
      *
-     * @return int  The number of queries.
+     * @return float  The total duration of all queries.
      */
     private function countQueriesDuration()
     {
